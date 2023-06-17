@@ -7,7 +7,7 @@ end
 class Taxi < Car
 end
 
-taxi = Car.new
+taxi = Taxi.new
 taxi.run(5)
 
 puts Taxi.superclass
